@@ -1,6 +1,7 @@
 body{
     background-image: url("photo.jpg");
     color: rgb(181, 39, 241);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .game{
     display: flex;
@@ -8,12 +9,21 @@ body{
     align-items: center;
     
 }
-button {
-    border-radius: 50%;
-    margin-top: 20px;
-}
+
 img{
-width: 150px;
-height: 150px;
-border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    filter: brightness(80%)
+    
+}
+img:active {
+    filter: brightness(100%)
+}
+
+input {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(110, 10, 153);  
+    
 }
